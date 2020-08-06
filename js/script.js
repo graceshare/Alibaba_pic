@@ -108,7 +108,7 @@ const itemMarkup = (file, url, x, y) => {
   const iLeft = item.offsetLeft;
   const iTop = item.offsetTop;
 
-  ajax2('http://notice.chaoxing.com/pc/files/uploadNoticeFile', file, function (data) {
+  ajax2('https://notice.chaoxing.com/pc/files/uploadNoticeFile', file, function (data) {
     data = JSON.parse(data);
     console.log(data);
 
